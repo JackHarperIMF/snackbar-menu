@@ -2,7 +2,7 @@
 
 ## Topics Covered
 - **Snackbar**: This project holds a simple snackbar notifications with smooth animations and dynamic layouts.
-- **Pure HTML & CSS & JS**: The code leverages HTML for structure and CSS for styling, ensuring a lightweight and customizable foundation.
+- **Frontend**: The code leverages HTML for structure, CSS for styling and animations and Js for dynamic and interactive web application.
 - **Media Queries for Dynamic Layouts**: The page adapts seamlessly across different screen sizes, providing an optimal user experience on desktops, tablets, and mobile devices.
   
 ## Skills Highlighted
