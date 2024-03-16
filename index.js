@@ -2,9 +2,10 @@
 let toastBox = document.getElementById('toastMenu');
 
 let saved = `<i class="fa-solid fa-circle-check"></i>Saved Successfully`;
-let del = `<i class="fa-solid fa-triangle-exclamation"></i> Just Kidding, chill!`;
+let del = `<i class="fa-solid fa-triangle-exclamation"></i>Your computer is self-destructing `;
 let hacker = `<i class="fa-solid fa-skull"></i>Zhehaha You got hacked!`;
 let go = `<i class="fa-solid fa-circle-xmark"></i>Couldn't close please try again`;
+let delayed = `Just Kidding, chill!`
 
 // Function to show the snackbar menu
 function showToast(input) {
@@ -16,9 +17,11 @@ function showToast(input) {
     if(input.includes('Saved')){
         toast.classList.add('saved');
     }
-    if(input.includes('Kidding')){
+    if(input.includes('computer')){
         toast.classList.add('alert');
-        setTimeout(() => alert(('Your computer is self-destructing'), 3000));
+        setTimeout(() => {
+            alert("Just Kidding!")
+        }, 4100);
     }
     if(input.includes('hacked')){
         toast.classList.add('hacked');
@@ -27,6 +30,6 @@ function showToast(input) {
         toast.classList.add('close');
     }
 
-    setTimeout(() =>{ toast.remove()}, 5000)
+    setTimeout(() =>{ toast.remove()}, 4000)
 }
   

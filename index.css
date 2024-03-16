@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 8px;
 }
 
@@ -15,7 +16,6 @@
     padding: 4px;
     width: 120px;
     border: 0px;
-    border-radius: 4px;
     height: 3rem;
     margin: 30px 8px;
     color: white;
@@ -25,15 +25,19 @@
 }
 .btn-primary{
     background-color: rgba(0, 145, 255, 0.998);
+    border-radius: 8px;
 }
 .btn-danger{
     background-color: rgb(255, 25, 0);
+    border-radius: 10px;
 }
 .btn-alert{
     background-color: rgb(255, 200, 0);
+    border-radius: 8px;
 }
 .btn-hack{
     background-color: rgb(0, 0, 0);
+    border-radius: 8px;
 }
 
 #toastMenu{
@@ -53,8 +57,8 @@
     width: 400px;
     height: 60px;
     color: white;
-    font: 800;
-    font-weight: 500;
+    font: 1300;
+    font-weight: 950;
     background-color: rgb(206, 225, 238);
     margin: 15px 0;
     position: relative;
@@ -106,5 +110,12 @@
 @keyframes anim{
     100%{
         width: 0;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .toast {
+        width: 300px;
+        height: 75px;
     }
 }
