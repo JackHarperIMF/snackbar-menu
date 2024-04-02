@@ -1,4 +1,4 @@
-# Smooth Toast Notifications for Web
+# Smooth Toast Notifications for Web | FSWD
 
 ## Topics Covered
 - **Snackbar**: This project holds a simple snackbar notifications with smooth animations and dynamic layouts.
