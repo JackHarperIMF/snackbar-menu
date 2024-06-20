@@ -13,5 +13,5 @@
 *Project Status: **Deployed**!* You can access the live demo by following the link provided in the section below.
 
 #### Checkout the Live Preview:
-https://jackharperimf.github.io/snackbar-menu/
+https://hemsincognito.github.io/web-toast/
 
